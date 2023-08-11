@@ -3,6 +3,7 @@ import "./App.css";
 
 import { db } from "./config";
 import Form from "./Form";
+import Signup from "./Signup";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -10,11 +11,13 @@ function App() {
 
   
 
+
  
   
 
   return <>
   <br/>
+<Signup/>
 <Form/>
 
   </>;
